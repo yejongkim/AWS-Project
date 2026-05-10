@@ -144,27 +144,19 @@ npm run build
 
 ---
 
-## 🌐 AWS 배포 URL
+# 🌐 배포 URL
 
 > ⚠️ **AWS Academy 세션은 4시간만 유효합니다. 세션 만료 시 URL이 동작하지 않을 수 있습니다.**
 
-**배포 URL**: `http://yj-shop-bucket.s3-website.us-east-1.amazonaws.com`
-
-*(실제 버킷 이름과 리전으로 교체해주세요)*
-
 ---
 
-## 🎬 시연 영상 (YouTube)
+## 📌 과제 1) GitHub Actions + AWS S3 배포 (실습4)
 
-GitHub Actions를 활용한 CI/CD 구축 과정을 시연한 영상입니다.
+GitHub Actions를 활용하여 CI/CD 환경을 구축하고, AWS S3에 정적 웹사이트를 자동 배포합니다.
 
-🔗 **YouTube 링크**: `https://youtube.com/watch?v=YOUR_VIDEO_ID`
+🔗 **S3 배포 URL**: http://mybucket-20263623.s3-website-us-east-1.amazonaws.com
 
-*(영상 업로드 후 링크 교체)*
-
----
-
-## 📝 과제 체크리스트
+### 과제 1 체크리스트
 
 - [x] 생성형 AI를 활용하여 React로 동작하는 웹시스템 구현 (쇼핑몰)
 - [x] GitHub Repository 생성 및 Code push
@@ -172,9 +164,27 @@ GitHub Actions를 활용한 CI/CD 구축 과정을 시연한 영상입니다.
 - [x] Secret에 AWS Academy 키 작성
 - [x] README.md 작성 (시스템 소개, 기능, GitHub Actions 환경, AWS URL, 시연 영상 링크)
 
+🎬 **시연 영상**: `https://youtube.com/watch?v=YOUR_VIDEO_ID` *(영상 업로드 후 링크 교체)*
+
+---
+
+## 📌 과제 2) AWS Amplify 호스팅 (실습5)
+
+과제 1의 GitHub Repository를 AWS Amplify 서비스를 활용하여 호스팅합니다.
+
+🔗 **Amplify 배포 URL**: https://main.d355597970px0t.amplifyapp.com/
+
+### 과제 2 체크리스트
+
+- [x] 과제 1의 GitHub Repository를 AWS Amplify에 연결
+- [x] AWS Amplify 서비스를 활용하여 자동 배포 구축
+- [x] README.md 추가 작성 (Amplify 배포 URL)
+
+🎬 **시연 영상**: `https://youtube.com/watch?v=YOUR_VIDEO_ID` *(영상 업로드 후 링크 교체)*
+
 ---
 
 ## 👤 Author
 
 **김예종 (Yejong Gim)**
-AWS 클라우드 컴퓨팅 강의 - 과제 1
+AWS 클라우드 컴퓨팅 강의 - 과제 1 & 과제 2
